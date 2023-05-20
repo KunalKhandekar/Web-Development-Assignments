@@ -1,0 +1,13 @@
+7. Explain in brief about the nesting operators in emmet ?
+
+Answer: Nesting operators in Emmet are special symbols that allow for quick and efficient creation of nested HTML structures. The main nesting operators are:
+
+1. '>' (Child Operator): Selects the direct child of the preceding element.
+
+2. '+' (Sibling Operator): Selects the next sibling element of the preceding element.
+
+3. '^' (Climb-up Operator): Selects the parent element of the preceding element.
+
+4. '(' and ')' (Grouping Operator): Group elements together to apply operators to the entire group.
+
+5. '{}' (Text Operator): Inserts text content inside an element.

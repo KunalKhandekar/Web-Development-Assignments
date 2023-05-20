@@ -1,0 +1,5 @@
+9. What are self-closing tags? Write a brief note on meta tags ?
+
+Answer: self-closing tags are used for elements that don't contain any content and can be closed with a forward slash at the end, without the need for a separate closing tag. Examples of self-closing tags include <br>, <img>, and <input>.
+
+Meta tags are snippets of code that provide information about a webpage. They are placed in the HTML document's header and give important details to browsers and search engines. These tags include information like the page's title, description, and keywords. Meta tags help search engines understand the content of the page and improve its visibility in search results. They also provide relevant information when sharing the page on social media. Although their impact on search rankings has reduced over time, meta tags still play a role in conveying crucial information about a webpage to browsers and other web services.

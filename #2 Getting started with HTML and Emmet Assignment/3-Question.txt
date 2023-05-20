@@ -1,0 +1,22 @@
+3. Write a short note on tags, elements, and attributes along with relevant examples ?
+
+Answer : Tags, elements, and attributes are fundamental components of HTML (Hypertext Markup Language) used to structure and define content on the web. Let's explore each of them with relevant examples:
+
+Tags:
+Tags are the building blocks of HTML markup. They define the structure and content of different elements on a webpage. Tags are enclosed in angle brackets (< >) and are typically written in pairs, consisting of an opening tag and a closing tag.
+
+For Example: <h1>Welcome to My Portfolio Website</h1>. In this example, the <h1> tag is used to define a heading. An opening tag <h1> indicates the start of the heading, and the closing tag </h1> denotes the end.
+
+Elements: 
+Elements are formed by combining tags and content. They represent different parts of a web page, such as headings, paragraphs, links, images, and more. Elements consist of opening and closing tags along with the content placed between them.
+
+For Example: <p>This is a paragraph.</p>. In this example, the <p> element defines a paragraph. The opening tag <p> marks the start of the paragraph, the closing tag </p> indicates its end, and the content is placed between them.
+
+Attributes:
+Attributes provide additional information or modify the behavior of HTML elements. They are placed within the opening tag of an element and consist of a name-value pair. Attributes enhance the functionality and appearance of elements.
+
+For Example: The <img> element is used to insert an image into a web page. It requires the src attribute to specify the image source (URL) and the alt attribute to provide alternative text.
+
+<img src="image.jpg" alt="Description of the image">
+
+In the above example, the src attribute specifies the image file to be displayed, and the alt attribute provides a descriptive text in case the image cannot be loaded or for accessibility purposes.

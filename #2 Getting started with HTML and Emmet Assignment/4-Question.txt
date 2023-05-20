@@ -1,0 +1,9 @@
+4. List out any 3 tags we learned in this module and give a brief explanation about the tags.
+
+Answer: The three tags out of many tags we have learned in this module are h1, p, div and their brief information is below:
+
+1. <h1></h1>: The <h1> tag is used to define the main heading of a webpage. It represents the highest level of heading and is typically used to convey the primary topic or title of the page. The content within the <h1> tag is usually displayed with a larger font size and carries significant importance for search engine optimization (SEO) purposes.
+
+2. <p></p>: The <p> tag is used to define a paragraph of text in HTML. It represents a block-level element and is commonly used to structure and organize textual content on a webpage. By default, the browser adds some space before and after the paragraph, creating a visual separation between paragraphs.
+
+3. <div></div>: The <div> tag is a versatile container element that is used to group and organize other HTML elements together. It stands for "division" and is often used to create sections or divisions within a webpage.
