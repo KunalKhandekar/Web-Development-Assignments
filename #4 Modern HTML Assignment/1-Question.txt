@@ -1,0 +1,27 @@
+1. List out the features of HTML5.
+
+Answer:     
+
+The features of HTML5 have greatly improved web development by providing more powerful and interactive possibilities while simplifying the development process.
+
+Some are as follow:
+
+    1. Semantic elements for clearer content structure.
+    
+    2. Native support for multimedia (video and audio).
+    
+    3. Canvas for dynamic 2D graphics and animations.
+    
+    4. Scalable Vector Graphics (SVG) for resolution-independent graphics.
+    
+    5. Enhanced form elements and validation.
+    
+    6. Geolocation API for accessing the user's location.
+    
+    7. Web storage for client-side data storage.
+    
+    8. Web workers for multi-threaded JavaScript execution.
+    
+    9. WebSockets for real-time bidirectional communication.
+    
+    10. Offline capabilities and caching with the Application Cache API.

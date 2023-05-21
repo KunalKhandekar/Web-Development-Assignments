@@ -1,0 +1,16 @@
+6. List any 5 semantic tags in HTML along with their descriptions ?
+
+Answer:
+semantic tags improve the structure and accessibility of HTML documents by providing meaningful and organized sections, making it easier for browsers, search engines, and assistive technologies to interpret and navigate the content.
+
+Some of these are as  follow:
+
+    1. <header>: Represents the introductory or navigational section of a document.
+
+    2. <nav>: Defines a section of navigation links within a document.
+
+    3. <main>: Represents the main content of the document.
+
+    4. <article>: Represents a self-contained, independent piece of content.
+
+    5. <footer>: Represents the closing section of a document or a specific section of the page.

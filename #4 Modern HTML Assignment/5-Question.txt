@@ -1,0 +1,5 @@
+5. Write a short note on the tab index ?
+
+Answer:
+
+The tabindex attribute in HTML is used to control the tabbing order of elements when navigating a webpage using the keyboard. It assigns a numerical value to elements, determining their position in the tab sequence. By default, elements follow the order in which they appear in the HTML structure. However, tabindex allows developers to modify this order or focus on elements that are not naturally keyboard focusable. While tabindex can be useful in specific cases, it should be used judiciously to ensure a logical and intuitive tabbing experience for all users. Incorrect or excessive use of tabindex can create confusion and hinder accessibility, so it's important to follow best practices and guidelines when implementing it.
