@@ -1,0 +1,14 @@
+body {
+    background-color: #282c34; /* Dark mode background color */
+    color: #fff; /* Text color for heading and paragraph */
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    color: #61dafb; /* Color for heading */
+  }
+  
+  p {
+    color: #ccc; /* Color for paragraph */
+    line-height: 1.5;
+  }

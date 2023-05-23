@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>9th Question</title>
+    <style>
+        .form-container {
+            width: 200px;
+            margin: 0;
+            padding: 20px;
+            border: 2px solid black;
+        }
+
+        .form-container form input[type="text"] {
+            color: rgb(255, 0, 0)
+        }
+
+        .form-container form input[type="email"] {
+            color: rgb(68, 0, 255);
+        }
+
+        .form-container form input[type="password"] {
+            color: rgb(255, 0, 238)
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- 9. Create a web page with a registration form, using the CSS attribute selector change the text color of each input field to any other color. -->
+
+    <div class="form-container">
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" placeholder="Enter your name"><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="Enter your email"><br><br>
+
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password" placeholder="Enter your password"><br><br>
+
+            <input type="submit" value="Register">
+        </form>
+    </div>
+</body>
+
+</html>
