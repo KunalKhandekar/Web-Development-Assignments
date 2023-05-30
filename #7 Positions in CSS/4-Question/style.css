@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Allerta&family=Poppins:wght@100;200;300;400&family=Roboto:wght@300&family=Source+Sans+Pro&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+body {
+    background-color: #242B2E;
+}
+
+.container {
+    width: 80vw;
+    margin: 0px auto;
+    color: aliceblue;
+}
+
+header {
+    text-align: center;
+    background-color: #FF6666;
+    position: sticky;
+    top: 0;
+}
+
+.course-poster h2 {
+    font-size: 26px;
+    color: #E07C24;
+}
+
+header p {
+    padding: 15px;
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.course-poster {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.course-poster img {
+    width: 400px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.details h2 {
+    margin-block: 20px;
+    color: #E07C24;
+}

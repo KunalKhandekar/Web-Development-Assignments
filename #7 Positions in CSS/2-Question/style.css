@@ -1,0 +1,39 @@
+body {
+    background-color: #100C07; 
+}
+
+.container {
+    margin: 100px 20px 0px;
+}
+
+.float-left {
+    float: left;
+    width: 60%;
+    color: white;
+    padding-top: 45px;
+}
+
+.float-left h1 {
+    font-size: 50px;
+}
+
+.btn {
+    margin-top: 10px;
+    background-color: #5A4BDA;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #5A4BDA;
+}
+
+.btn:hover {
+    background-color: #4838d7;
+}
+
+.float-right {
+    float: right;
+}
+
+.float-right img {
+    width: 480px;
+}

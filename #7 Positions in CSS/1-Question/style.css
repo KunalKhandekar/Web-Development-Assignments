@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* For Left Float */
+.float-left {
+    float: left;
+    width: 12%;
+    min-height: 100vh;
+}
+
+.logo {
+    background-color: #5DA3FA;
+    height: 60px;
+}
+
+.logo img {
+    padding-block: 2px;
+    width: 100%;
+}
+
+.navigation-bar {
+    background-color: #242B2E;
+    height: calc(100vh - 60px);
+}
+
+.navigation-bar nav ul {
+    list-style: none;
+}
+
+.navigation-bar nav ul li {
+    padding: 10px 20px;
+    border-bottom: 1.5px dotted black;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* For Right Float  */
+.float-right {
+    float: right;
+    width: 88%;
+    background-color: #1F1F1F;
+    min-height: 100vh;
+}
+
+.content {
+    width: 80%;
+    margin: 10px auto;
+}
+
+.content h1 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #5A4BDA;
+}
+
+.content p {
+    color: white;
+}
+
+.banner {
+    margin-block: 20px;
+    text-align: center;
+}
+
+.banner img {
+    width: 400px;
+}

@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Allerta&family=Poppins:wght@100;200;300;400&family=Roboto:wght@300&family=Source+Sans+Pro&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.box {
+    position: relative;
+    width: 300px;
+}
+
+.btn {
+    margin: 50px;
+    background-color: #FF6666;
+    font-weight: 700;
+    border-radius: 6px;
+    border: 2px solid #FF6666;
+    padding: 10px 40px;
+    font-size: 20px;
+}
+
+.discount {
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 7px;
+    padding: 5px 15px;
+    color: white;
+    font-weight: 700;
+    position: absolute;
+    top: 30px;
+    right: 40px;
+}
