@@ -1,0 +1,68 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #202124;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    text-align: center;
+    width: 700px;
+}
+
+.img {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.img img {
+    width: 250px;
+}
+
+.searchBar {
+    position: relative;
+}
+
+.searchBar input {
+    width: 548px;
+    background-color: #202124;
+    padding: 10px 100px 10px 50px;
+    border-radius: 24px;
+    outline: none;
+    color: white;
+    min-height: 44px;
+    background: #202124;
+    border: 1px solid #5f6368;
+}
+
+.searchBar .search-icon {
+    position: absolute;
+    left: 13%;
+    top: 30%;
+}
+
+.mic img, .lens img {
+    width: 30px;
+}
+
+.searchBar .mic {
+    position: absolute;
+    right: 20%;
+    top: 15%;
+
+}
+
+.searchBar .lens {
+    position: absolute;
+    top: 15%;
+    right: 14%;
+}

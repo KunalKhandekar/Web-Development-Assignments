@@ -1,0 +1,51 @@
+/* CSS Reset  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #242B2E;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+.sub-container {
+    display: flex;
+    height: 200px;
+}
+
+.pic img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 8px solid white;
+}
+
+.img1 {
+    position: absolute;
+    z-index: 4;
+    left: 30%;
+}
+.img2 {
+    position: absolute;
+    z-index: 3;
+    left: 40%;
+}
+.img3 {
+    position: absolute;
+    z-index: 2;
+    left: 50%;
+}
+.img4 {
+    position: absolute;
+    z-index: 1;
+    left: 60%;
+}

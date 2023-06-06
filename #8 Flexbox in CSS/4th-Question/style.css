@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Roboto&display=swap');
+
+/* Css Reset  */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header  */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 60px;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, .12), inset 0 -1px 0 0 #dadce0;
+}
+
+/* logo  */
+.gmail-logo {
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    font-family: "Google Sans", "Roboto", Arial, sans-serif;
+}
+
+.gmail-logo img {
+    width: 30px;
+    padding-right: 10px;
+}
+
+/* buttons  */
+.login-signup {
+    display: flex;
+    gap: 30px;
+}
+
+.btn {
+    padding: 12px 24px 11px;
+    cursor: pointer;
+    color: #1a73e8;
+    background-color: #fff;
+    border: none;
+    font-family: "Google Sans", "Roboto", Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: .1px;
+    line-height: 24px;
+    margin-right: 5px;
+}
+
+.primary-btn {
+    border: 1px solid grey;
+    border-radius: 4px;
+}
+
+.secondary-btn {
+    background-color: #1a73e8;
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+/* Hero Container  */
+.container {
+    display: flex;
+}
+
+.info {
+    width: 80%;
+    padding: 50px;
+    padding-left: 80px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.info p {
+    font-family: "Google Sans", "Roboto", Arial, sans-serif;
+}
+
+.heading h1 {
+    font-size: 56px;
+    line-height: 58px;
+    font-family: "Google Sans", "Roboto", Arial, sans-serif;
+}
+
+.img img {
+    width: 100%;
+}

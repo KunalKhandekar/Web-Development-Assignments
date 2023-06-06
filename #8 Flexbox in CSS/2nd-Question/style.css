@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+body {
+    background-color: #CAD5E2;
+}
+
+body > h1 {
+    color: #675CDB;
+    text-align: center;
+    padding:20px 5px 5px;
+    font-size: 40px;
+}
+
+body > p {
+    color: #766967;
+    text-align: center;
+    font-size: 15px;
+}
+
+.course-container {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.course {
+    width: 300px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.c-img img {
+    width: 300px;
+}
+
+.c-tag {
+    color: #645EDE;
+    font-weight: bolder;
+    font-size: 17px;
+    padding-block: 15px;
+}
+
+.mentor {
+    font-size: 13px;
+}
+
+.price {
+    padding-block: 15px;
+    font-weight: bolder;
+}
+

@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
+
+/* css Reset */
+* {
+    margin: 0;
+    padding: 0;
+    color: #FBFCFC;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+
+/* Just added for Free space above footer */
+.free-space {
+    height: 50vh;
+}
+
+/* footer container  */
+.container {
+    padding-top: 20px;
+    background-color: #1b2124;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+/* for all  */
+.heading h1 {
+    font-size: 1.6rem;
+}
+
+.heading hr {
+    width: 10rem;
+    margin-top: 1.2rem;
+    margin-bottom: 12px;
+    color: #f7a654;
+    border: 1px solid #f7a654;
+    background-color: #f7a654;
+}
+
+li {
+    list-style: none;
+    padding-top: 20px;
+}
+
+.first,
+.second,
+.third {
+    width: 300px;
+}
+
+
+/* first Div  */
+.first .img img {
+    width: 150px;
+}
+
+.first .email {
+    padding-block: 20px;
+}
+
+.first .email p:nth-child(1) {
+    font-weight: bolder;
+}
+
+.first .iso-logo img {
+    width: 100px;
+    padding-top: 30px;
+}
+
+.first .iso-logo p {
+    padding-block: 15px;
+}
+
+
+/* Second Div  */
+.info-container {
+    display: flex;
+    gap: 50px;
+}
+
+.nth1-info ul li:nth-child(2),
+.nth1-info ul li:nth-child(3) {
+    padding-top: 30px;
+}
+
+.nth2-info {
+    width: 80px;
+}
+

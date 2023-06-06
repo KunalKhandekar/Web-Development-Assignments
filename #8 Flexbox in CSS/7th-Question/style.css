@@ -1,0 +1,37 @@
+/* CSS Reset  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.alertBar {
+    text-align: center;
+    background-color: #FEE2E2;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    height: 40px;
+    padding: 10px 15px;
+    border-left: 5px solid red;
+    border-radius: 12px;
+    position: fixed;
+    top: 0%;
+}
+.alertBar p {
+    color: #F05952;
+}
+
+.alertBar .cross i{
+    width: 40px;
+}
+
+/* just added to check wheter it's fixed to the top or not  */
+.scroll {
+    height: 150vh;
+}
