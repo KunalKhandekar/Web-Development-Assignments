@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+/* header Navigation section  */
+.header {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* justify-: space-between; */
+    align-items: center;
+}
+
+.logo img {
+    width: 60px;
+}
+
+.navigation {
+    display: grid;
+    justify-self: center;
+}
+
+.navigation ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+}
+
+.button {
+    display: grid;
+    justify-self: end;
+    padding-right: 10px;
+}
+
+.button .btnlogin {
+    padding: 8px 45px;
+    border: 2px solid rgb(76, 207, 76);
+    color: rgb(0, 0, 0);
+    background-color: rgb(76, 207, 76);
+    border-radius: 6px;
+}
+
+/* Hero Section  */
+.g-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin-bottom: 10px;
+}
+
+.information {
+    padding-inline: 60px;
+}
+
+
+.information p {
+    padding-block: 30px;
+}
+
+.btn {
+    padding: 8px 45px;
+    border: 2px solid black;
+    color: white;
+    background-color: black;
+    border-radius: none;
+}
+
+.images {
+    display: grid;
+    justify-self: start;
+    background-color: yellow;
+    width: 100%;
+}
+
+.images img {
+    height: 100vh;
+    width: 450px;
+}
+
+/* Services Section  */
+section.services {
+    padding-block: 15px 60px;
+    padding-inline: 50px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+    background-color: #2b1e16;
+}
+
+.services .content img {
+    width: 100px;
+}
+
+.services .content {
+    text-align: center;
+    width: 260px;
+}
+
+.services .content h2 {
+    color: white;
+    padding-block: 30px 15px;
+}
+
+.services .content p {
+    color: #e0cbc1;
+}
+
+.services .content .img-increase {
+    width: 120px;
+    padding-top: 5px;
+}
+
+/* Features Section  */
+section.features {
+    display: grid;
+    padding: 20px;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+}
+
+.features .ways {
+    width: 300px;
+    height: 250px;
+    border-radius: 24px;
+    border: 2px solid black;
+}
+
+.features .img {
+    width: 100%;
+    height: 150px;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+}
+
+.info {
+    padding-inline: 27px;
+}
+
+.info h1 {
+    padding-block: 5px;
+}
+
+.first {
+    background: url('images/ways1.jpg') no-repeat center center/cover;
+}
+
+.second {
+    background: url('images/ways2.jpg') no-repeat center center/cover;
+}
+
+.third {
+    background: url('images/way3.jpg') no-repeat center center/cover;
+}

@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.img1, .img2, .img3, .img4, .img5, .img6 {
+    border-radius: 8px;
+    border: none;
+}
+
+.img1 {
+    grid-area: p1;
+    background: url('images/img1.jpeg') no-repeat center center/cover;
+}
+.img2 {
+    grid-area: p2;
+    background: url('images/img2.jpeg') no-repeat center center/cover;
+}
+.img3 {
+    grid-area: p3;
+    background: url('images/img3.jpeg') no-repeat center center/cover;
+}
+.img4 {
+    grid-area: p4;
+    background: url('images/img4.jpeg') no-repeat center center/cover;
+}
+.img5 {
+    grid-area: p5;
+    background: url('images/img5.jpeg') no-repeat center center/cover;
+}
+.img6 {
+    grid-area: p6;
+    background: url('images/img6.jpeg') no-repeat center center/cover;
+}
+
+.gallery {
+    display: grid;
+    grid-template-areas:
+    "p1 p2 p3"
+    "p4 p2 p5"
+    "p4 p6 p5";
+    grid-gap: 10px;
+    min-height: 100vh;
+    padding: 10px;
+}

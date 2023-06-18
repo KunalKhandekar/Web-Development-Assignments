@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    padding-block: 20px;
+}
+
+.span-2 {
+    grid-column: span 2;
+}
+
+.timetable {
+    display: grid;
+    grid-template-columns: repeat(8, auto);
+    text-align: center;
+    border: 8px solid #4F8BD6;
+    font-family: 'Lato', sans-serif;
+}
+
+.time, .subject, .day, .lab, .game {
+    border: 2px dotted black;
+}
+
+.time, .game, .recess {
+    font-weight: bold;
+}
+
+.time {
+    background-color: #FF6666;
+    padding-block: 20px;
+    font-size: 12px;
+}
+
+.day {
+    background-color: #8D3DAF;
+    padding: 7px 30px;
+}
+
+.subject {
+    background-color: #04C6C7;
+    padding: 7px 30px;
+}
+
+.recess {
+    background-color: #EDC126;
+    padding: 7px 30px;
+}
+
+.lab {
+    background-color: #CAD5E2;
+    padding: 7px 30px;
+}
+
+.game {
+    background-color: #1FAA59;
+    padding: 7px 30px;
+}
