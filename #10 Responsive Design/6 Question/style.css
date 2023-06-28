@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer {
+    background-color: #000;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 30px;
+    color: #A1A4A6;
+    padding: 50px 25px;
+}
+
+.onecard {
+    width: 280px;
+    text-align: justify;
+}
+
+.onecard p {
+    line-height: 1.5;
+}
+
+footer div h1 {
+    padding-block: 15px;
+    color: #fff;
+}
+
+.navigation {
+    width: 150px;
+}
+
+ul li{
+    list-style: none;
+    padding-bottom: 20px;
+}
+
+.newsletter input, .newsletter button {
+    display: block;
+    width: 280px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+.newsletter input {
+    padding: 5px 10px;
+    outline: none;
+    border: 1px solid #fff;
+}
+
+.newsletter .btn {
+    margin-top: 5px;
+    background-color: rgb(29, 90, 205);
+    border: 1px solid rgb(29, 90, 205);
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Scroller */
+.scroll {
+    height: 80vh;
+}
+
+@media screen and (max-width:1000px) {
+    footer {
+        justify-content: flex-start;
+    }
+}
