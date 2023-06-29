@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3rd Question</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@1,500;1,600;1,900&family=Inter:wght@200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,300;0,400;1,500;1,600;1,700&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Inter';
+        }
+
+        .card {
+            width: 300px;
+            border: 2px solid black;
+            border-radius: 12px;
+            padding: 20px 15px 15px;
+            background: linear-gradient(to right, rgb(95, 164, 221), rgb(66, 85, 226));
+            margin: 10% auto 0;
+            transition: all 0.5s ease-in;
+        }
+        .date {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-block: 15px;
+        }
+
+        .date h1 {
+            font-size: 20px;
+        }
+
+        .date p {
+            color: #fafafa;
+            font-size: 13px;
+        }
+
+        .imp-date > h2 {
+            padding-bottom: 12px;
+            font-size: 18px;
+        }
+
+        ul {
+            padding-left: 30px;
+            font-size: 14px;
+            padding-bottom: 20px;
+        }
+
+        button {
+            width: 100%;
+            padding: 5px 15px;
+            background: linear-gradient(to right, rgb(86, 218, 189), rgb(89, 237, 89));
+            border: 1px solid rgb(146, 216, 146);
+            border-radius: 7px;
+            font-weight: bold;
+        }
+
+        .card:hover {
+            transform: rotate(-90deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="date">
+            <h1>#01</h1>
+            <p>Created on : 01/01/2023</p>
+        </div>
+        <div class="imp-date">
+            <h2>Important dates</h2>
+            <ul>
+                <li>January 26 - Republic Day</li>
+                <li>August 15 - Independence Day</li>
+                <li>October 2 - Gandhi Jayanti</li>
+                <li>August 29 - National Sports Day</li>
+            </ul>
+        </div>
+        <button>Mark As Done</button>
+    </div>
+</body>
+</html>
