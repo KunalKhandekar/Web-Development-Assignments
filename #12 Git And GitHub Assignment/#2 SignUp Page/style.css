@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.home {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+}
+
+.signup {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    width: 350px;
+    border-radius: 8px;
+}
+
+.signup label {
+    text-align: left;
+    display: block;
+    padding-bottom: 5px;
+}
+
+.signup .inputBox {
+    margin-top: 15px;
+}
+
+.signup select,
+.signup input {
+    padding-left: 10px;
+}
+
+.signup input,
+.signup select {
+    width: 100%;
+    height: 30px;
+    outline: none;
+}
+
+input[type="submit"] {
+    margin-top: 15px;
+    height: 30px;
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #000;
+    border-radius: 6px;
+}
