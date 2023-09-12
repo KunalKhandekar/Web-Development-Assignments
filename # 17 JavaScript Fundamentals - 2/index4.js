@@ -29,3 +29,7 @@ const products = [
 ];
 
 MinMaxPrice(products);
+
+//OUTPUT: The Product with the maximum amount: Laptop - 120000
+
+//OUTPUT: The Product with the minimum amount: Mobile Charger - 1500

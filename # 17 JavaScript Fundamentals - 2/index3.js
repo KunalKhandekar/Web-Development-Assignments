@@ -42,4 +42,11 @@ function filterStundentsByMarks(student) {
     };
 };
 
-filterStundentsByMarks("Parman");
+filterStundentsByMarks("Mithun");
+// OUTPUT: Congratulations Mithun! You have cleared the exam.
+
+filterStundentsByMarks("Prabir");
+// OUTPUT: Sorry ! You have not cleared the exam.
+
+filterStundentsByMarks("Mithun S");
+// OUTPUT: Invalid User !!!

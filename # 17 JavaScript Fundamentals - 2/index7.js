@@ -3,3 +3,5 @@ function generateOtp() {
 }
 
 console.log("Here is your Otp:", generateOtp())
+
+// OUTPUT: Here is your Otp: 8714
